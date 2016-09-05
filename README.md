@@ -6,3 +6,6 @@ Currently it includes the following components:
 * Combobox
 * Sidebar
 * Dialog
+* AutoComplete
+* Progressbar 
+* WindowObject 

@@ -30,13 +30,13 @@ export class Dialog extends BasicComponent<DialogProps,DialogState>{
     render(){
         let props = this.props;
         return (
-            <div className="of-dialog" data-visible={this.state.visible}>
-                <div className="of-backdrop" onClick={(props.closeOnBackdrop)?props.onClose:undefined}>
-                    <div className="of-dialog-container">
-                        <div className="of-close-button" onClick={props.onClose}>
+            <div className="react-ui-dialog" data-visible={this.state.visible}>
+                <div className="dialog-backdrop" onClick={(props.closeOnBackdrop)?props.onClose:undefined}>
+                    <div className="dialog-container">
+                        <div className="dialog-close-button" onClick={props.onClose}>
                             {props.viewForCloseButton?props.viewForCloseButton():(<i className="fa fa-lg fa-times"></i>)}
                         </div>
-                        <div className="of-content-container">
+                        <div className="dialog-content-container">
                         {props.children}
                         </div>
                     </div>
