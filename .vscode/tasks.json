@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "Compile TypeScript",
+            "args": [
+                "tsc",
+                "-p",
+                "."
+            ]
+        },{
+            "taskName": "Compile JSPM",
+            "args":[
+                "jspm bundle-sfx ./es6/index.js - react - react-dom ./compiled/index.js --skip-source-maps"
+            ]
+        }
+    ]
+}

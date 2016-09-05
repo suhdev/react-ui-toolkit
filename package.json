@@ -1,0 +1,30 @@
+{
+  "name": "react-ui-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhdev/react-ui-toolkit.git"
+  },
+  "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/react-ui-toolkit/issues"
+  },
+  "homepage": "https://github.com/suhdev/react-ui-toolkit#readme",
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^15.3.1",
+      "react-dom": "npm:react-dom@^15.3.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
