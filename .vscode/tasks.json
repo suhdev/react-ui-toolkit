@@ -18,7 +18,13 @@
         },{
             "taskName": "Compile JSPM",
             "args":[
-                "jspm bundle-sfx ./es6/index.js - react - react-dom ./compiled/index.js --skip-source-maps"
+                "jspm bundle-sfx ./es6/index.js ./compiled/index.js --skip-source-maps"
+            ]
+        },
+        {
+            "taskName":"COMPILE",
+            "args":[
+                "tsc -p . && jspm bundle-sfx ./es6/index.js ./compiled/index.js --skip-source-maps"
             ]
         }
     ]

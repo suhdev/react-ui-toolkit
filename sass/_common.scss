@@ -1,0 +1,14 @@
+%box,.of-util-box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+%clearfix,.of-util-clearfix{
+    &:before,&:after{
+        content:' ';
+        display:block;
+        clear:both;
+    }
+}
+

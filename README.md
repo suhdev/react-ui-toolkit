@@ -9,3 +9,8 @@ Currently it includes the following components:
 * AutoComplete
 * Progressbar 
 * WindowObject 
+* TableView
+* GridView
+* CollectionView
+* ListView
+* Switch

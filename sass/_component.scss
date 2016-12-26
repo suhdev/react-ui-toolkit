@@ -1,0 +1,8 @@
+$component-styles:'default' 'primary' 'warning' 'danger'; 
+$component-sizes:'xs' 'sm' 'md' 'lg'; 
+$component-multipliers:0.6 0.8 1 1.3;
+
+%of-component{
+    @extend %box;
+    font-size:12px;
+}
